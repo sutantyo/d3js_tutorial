@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Link, Route } from 'react-router-dom'
 import logo from './logo.svg';
 import './App.css';
 
-import DataMenu from './data-tutorial/data-menu'
-import SVGMenu from './svg-tutorial/svg-menu'
+import DataMenu from 'data-tutorial/data-menu'
+import SVGMenu from 'svg-tutorial/svg-menu'
 
 class App extends Component {
   render() {
